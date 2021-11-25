@@ -11,14 +11,14 @@ int main(){
 	cout << "nama yang ingin dicari : ";
 	getline(cin, cari);
 	
-	for(int i=0;i<5;i++){
-		if(cari==kelas[i]){ 
+	for (int i=0;i<5;i++){
+		if (cari==kelas[i]){ 
 			cout << cari << " adalah member one direction";
 			cek = true;
 		}
 	}
 	
-	if(cek==false){
+	if (cek==false){
 		cout << cari << " bukan member one direction";
 	}
 }
