@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main(){
 	
 	string kelas[5] = {"zayn","harry","niall","louis","liam"};
